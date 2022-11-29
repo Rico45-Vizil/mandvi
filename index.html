@@ -12,7 +12,12 @@
 </head>
 
 <body background="img/bg1.jpg">
-  <audio autoplay="" src="img/hbd.mp3" ></audio>
+ <audio src="img/hbd.mp3" id="my_audio" loop="loop"></audio>
+  <script type="text/javascript">
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
   <div class="container">
     <div class="one">
       <h1 class="one">oyee!!! hey there!!
